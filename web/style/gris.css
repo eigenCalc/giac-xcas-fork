@@ -1,0 +1,313 @@
+
+/**
+ * General properties
+ */
+
+body{
+	background-color: rgb(210, 210, 220);
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-width: 0px 0px 0px 0px;
+	font-family: Verdana;
+	font-size: small;
+}
+
+p
+{
+	font-size: small;
+}
+
+
+a:link, a:visited, a:hover, a:focus
+{
+    text-decoration: none;
+	color: rgb(0, 0, 128);
+}
+
+img
+{
+	border-width: 0px 0px 0px 0px;
+	vertical-align: middle;
+}
+
+
+div
+{
+	background-color: red;
+	color: black;
+}
+
+div
+{
+	background-color: white;
+}
+
+
+/**
+ * Header item properties.
+ */
+
+div.header
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+	border: 0;
+	background-color: rgb(210, 210, 220);
+}
+
+.header .logo
+{
+	vertical-align: middle;
+	float: left;
+	clear: left;
+}
+
+div.header div.title
+{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: left;
+	padding: 12px;
+    color: black;
+	background-color: rgb(210, 210, 220);
+}
+
+div.header div.subtitle
+{
+    font-size: small;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+	background-color: rgb(210, 210, 220);
+}
+
+/** Main menu */
+div.header div.menu ul
+{
+	background-color: rgb(210, 210, 220);
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    border: 0;
+    margin: 4px 0px 4px 0px;
+    padding: 4px;
+}
+
+div.header div.menu ul li
+{
+    border: 1px solid black;
+    display: inline;
+	margin: 0px 8px 0px 8px;
+	padding: 4px 8px 4px 8px;
+    background-color: rgb(220, 220, 220);
+}
+
+div.header div.menu ul li.hilight
+{
+    border: 1px solid black;
+    display: inline;
+    padding: 4px 8px 4px 8px;
+    background-color: white;
+}
+
+div.header div.menu ul li.hilight a:link,
+div.header div.menu ul li.hilight a:visited,
+div.header div.menu ul li.hilight a:hover,
+div.header div.menu ul li.hilight a:focus
+{
+	color: black;
+	font-weight: bold;
+}
+
+
+/** Submenu */
+div.header div.submenu
+{
+    background-color: rgb(220, 220, 220);
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+	border: 1px solid black;
+    margin: 0px 1px 0px 1px;
+    padding: 4px;
+}
+
+div.header div.submenu ul
+{
+    background-color: rgb(220, 220, 220);
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+div.header div.submenu ul li
+{
+    background-color: rgb(220, 220, 220);
+    border-width: 0px;
+    display: inline;
+    padding: 4px 8px 4px 8px;
+}
+
+div.header div.submenu ul li.hilight
+{
+    background-color: rgb(220, 220, 220);
+    border-width: 0px;
+    display: inline;
+    padding: 4px 8px 4px 8px;
+	background-color: white;
+}
+
+div.header div.submenu ul li.hilight a:link,
+div.header div.submenu ul li.hilight a:visited,
+div.header div.submenu ul li.hilight a:hover,
+div.header div.submenu ul li.hilight a:focus
+{
+	color: black;
+	font-weight: bold;
+}
+
+
+
+/**
+ * Side Box 
+ */
+
+.sideBox
+{
+	border: 1px solid black;
+	width: 16em;
+	margin: 1em;
+	
+	float: left;
+	clear: left;
+}
+
+.sideBox h1
+{
+	font-weight: bold;
+	font-size: medium;
+	border: 0;
+	margin: 0;
+	padding: 8px 12px 8px 12px;
+    background-color: rgb(220, 220, 220);
+	color: black;
+}
+
+.sideBox h2
+{
+	font-weight: bold;
+	font-size: small;
+	border: 0;
+	margin: 0;
+	padding: 6px 12px 6px 12px;
+    background-color: rgb(220, 220, 220);
+	color: black;
+}
+
+.sideBox ul
+{
+	list-style-type: none;
+	font-size: small;
+	font-weight: normal;
+	border: 0;
+	margin: 0;
+	padding: 2px;	
+}
+
+.sideBox div.submenu ul li
+{
+	border-width: 0px;
+	padding: 4px 8px 4px 8px;
+}
+
+.sideBox div.submenu ul li.hilight
+{
+    background-color: rgb(220, 220, 220);
+	border-width: 0px;
+	padding: 4px 8px 4px 8px;
+}
+
+
+/**
+ * Main pages
+ */
+.mainPage
+{
+	border: 1px solid black;
+	margin: 1em 1em 1em 18em;
+}
+
+.mainPage h1
+{
+	font-weight: bold;
+	font-size: x-large;
+	border: 0;
+	margin: 0px;
+	padding: 2px 8px 2px 8px;
+    background-color: rgb(220, 220, 220);
+	color: black;
+	
+}
+
+.mainPage h2
+{
+	font-weight: bold;
+	font-size: large;
+	border: 0;
+	margin: 0;
+	padding: 2px 8px 2px 8px;
+    background-color: rgb(220, 220, 220);
+	color: black;
+}
+
+.mainPage h3
+{
+	font-weight: bold;
+	font-size: large;
+	border: 0;
+	margin: 0;
+	padding: 1em;
+	background-color: white;
+	color: black;
+}
+
+.mainPage h4
+{
+	font-weight: bold;
+	font-size: small;
+	border: 0;
+	margin: 0;
+	padding: 1em;
+	background-color: white;
+	color: black;
+}
+
+.mainPage p
+{
+	font-weight: small;
+	font-size: normal;
+	text-align: justify;
+	border: 0;
+	margin: 0;
+	padding: 1em 1em 1em 2em;
+	background-color: white;
+	color: black;
+}
+
+.mainPage a:link,
+.mainPage a:visited,
+.mainPage a:hover,
+.mainPage a:focus
+{
+	font-weight: small;
+	font-size: normal;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	color: blue;
+	text-decoration: underline;
+}
